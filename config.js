@@ -1,5 +1,5 @@
 let fs = require('fs')
-global.owner = ['628998512588','628112958665','62895423478398','6283175998566','6285693602003','6281334177340'] // Letakan nomor kamu disini
+global.owner = ['6283872123464','6285773744917','628996679822'] // Letakan nomor kamu disini
 global.mods = [] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
@@ -21,28 +21,28 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey nya disini
   // 'https://website': 'apikey'
-  'https://hardianto-chan.herokuapp.com': 'apikey lu',
-  'https://neoxr-api.herokuapp.com': 'apikey lu',
+  'https://hardianto-chan.herokuapp.com': 'hardianto',
+  'https://neoxr-api.herokuapp.com': 'yntkts',
   'https://pencarikode.xyz': 'APIKEY',
-  'https://api.xteam.xyz': 'apikey lu',
-  'https://zahirr-web.herokuapp.com': 'apikey lu',
-  'https://api.zeks.xyz': 'apikey lu',
-  'https://api.lolhuman.xyz': 'apikey lu',
-  'https://api.vhtear.com': 'apikey lu',
-  'https://fxc7-api.herokuapp.com': 'apikey lu',
-  'https://api.justaqul.xyz': 'apikey lu'
+  'https://api.xteam.xyz': 'HIRO',
+  'https://zahirr-web.herokuapp.com': 'zahirgans',
+  'https://api.zeks.xyz': 'FVe0JFCdME58YSKmhoDWdRtyuJt',
+  'https://api.lolhuman.xyz': 'WajibPatunganKontol!!',
+  'https://api.vhtear.com': 'sayahafiz',
+  'https://fxc7-api.herokuapp.com': 'uN8rsK4g',
+  'https://api.justaqul.xyz': '5kbUqdG00OXelFYx'
 }
 
 // Sticker WM
-global.packname = 'Kurumiloli'
-global.author = 'Rafli'
+global.packname = 'ZAKY-BOTZ'
+global.author = 'ZAKY-BOTZ'
 
 global.wait = '「 ⏱️ 」Harap tunggu...'
 global.eror = '*Server Error*'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&backgroundColor=%23101820&fillTextPattern=Warning!&text='
-global.watermark = '® Kurumiloli'
+global.watermark = '® ZAKY-BOTZ'
 
-global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
+global.multiplier = 50 // Semakin tinggi, semakin sulit naik level
 
 let chalk = require('chalk')
 let file = require.resolve(__filename)
