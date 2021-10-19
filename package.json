@@ -1,10 +1,10 @@
 {
-  "name": "Zafkiel-Bot",
+  "name": "ZAKY-BOTZ,
   "version": "1.1.2",
   "description": "WhatsApp Bot Ringan",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js --self",
+    "start": "node index.js --public",
     "test": "node test.js"
   },
   "repository": {
