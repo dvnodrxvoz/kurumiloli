@@ -4,12 +4,12 @@ let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts = require('cfonts')
-CFonts.say('Zafkiel-Bot', {
+CFonts.say('ZAKY-BOTZ', {
   colors: ['#f2aa4c'],
   font: 'block',
   align: 'center',
 })
-CFonts.say(`'Zafkiel-Bot' Tokisaki Kurumi`, {
+CFonts.say(`'ZAKY-BOTZ' Najwan Zaky`, {
   colors: ['#f2aa4c'],
   font: 'console',
   align: 'center',
