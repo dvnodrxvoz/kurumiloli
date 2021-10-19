@@ -11,10 +11,10 @@ const defaultMenu = {
 │
 ├ Tersisa *%limit Limit*
 ├ Role *%role*
-├ Level *%level (%exp / %maxexp)* [%xp4levelup]
+├ Level *%level (%exp / %maxexp)* 
 ├ %totalexp XP secara Total
 │ 
-├ Tanggal: *%week %weton, %date*
+├ Tanggal: *%week, %date*
 ├ Tanggal Islam: *%dateIslamic*
 ├ Waktu: *%time*
 │
@@ -187,7 +187,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
-          "description": "® Kurumiloli",
+          "description": "® ZAKY-BOTZ,
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
